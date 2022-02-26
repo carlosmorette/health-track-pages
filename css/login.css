@@ -1,0 +1,62 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: 34%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url("../images/frutas.jpeg");
+}
+
+.card-content {
+    width: 80%;
+    height: 76%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.access-your-account {
+    font-size: 30px;
+    color: #6D6D6D;
+}
+
+.inputs > form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin: 10px 0;
+    background-color: #F0F0F0;
+    border: none;
+    width: 90%;
+    align-self: center;
+}
+
+.enter-and-register {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+}
+
+.enter-and-register button {
+    width: 100%;
+    padding: 10px 30px;
+    border: none;
+    background-color: #FF5F5F;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.register {
+    color: #FF5F5F;
+    font-weight: bold;
+}
+
