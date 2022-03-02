@@ -1,0 +1,133 @@
+.my-navbar {
+    background-color: #FF5F5F;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-navbar ul {
+    list-style: none;
+    color: white;
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.download-app {
+    padding: 5px 1.4em;
+    background-color: #519E8A;
+    border-radius: 10px;
+}
+
+.perfil {
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    color: white;
+}
+
+.perfil p {
+    margin-top: 10px;
+}
+
+.perfil img {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 100px;
+    margin-top: 6px
+}
+
+main {
+    margin: 30px 60px;
+}
+
+.personal-information-container {
+    height: auto;
+    background-color: #F0F0F0;
+    padding: 30px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-information {
+    display: flex;
+    align-items: center;
+}
+
+.goal {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+
+.goal img {
+    width: 50px;
+}
+
+.cards {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: auto !important;
+    border-radius: 10px !important;
+    margin: 20px 0px;
+}
+
+.card-body img {
+    width: 65px;
+}
+
+.card-history {
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    width: auto;
+    padding: 30px 30px;
+}
+
+.exercise-details {
+    font-weight: normal;
+}
+
+
+@media (max-width: 880px) {
+    .download-app {
+	padding: 10px 10px;
+	font-size: 10px;
+    }
+
+    .my-navbar ul {
+	width: 40vw
+    }
+}
+
+@media (max-width: 800px){
+    .personal-information-container {
+	align-items: center;
+	text-align: center;
+    }
+    
+    .personal-information {
+	flex-direction: column;
+    }
+
+    .goal {
+	text-align: center;
+	margin-left: 0;
+	margin-top: 30px;
+    }
+
+    .perfil img {
+	display: none;
+    }
+}
