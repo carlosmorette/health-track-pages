@@ -19,15 +19,8 @@
 }
 
 input {
-    padding: 15px 30px;
-    border-radius: 10px;
-    margin: 10px 0;
-    background-color: #F0F0F0;
-    border: none;
-    width: 90%;
-    align-self: center;
+    background-color: #F0F0F0 !important;
 }
-
 
 @media (max-width: 988px) {
     .card {

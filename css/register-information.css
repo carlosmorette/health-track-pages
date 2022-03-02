@@ -13,8 +13,9 @@ body {
 }
 
 .card-content {
+    width: 70%;
     margin: 0px 30px;
-    height: 70%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +24,6 @@ body {
 }
 
 .card-content p {
-    width: 90%;
     font-size: 14px;
 }
 
@@ -45,12 +45,16 @@ body {
     background-color: #FF0000;
 }
 
-.register {
-    width: 90%;
-    padding: 10px 30px;
-    border: none;
-    background-color: #FF5F5F;
-    border-radius: 10px;
-    color: white;
-    margin: 20px 0;
+.inputs {
+    width: 100%;
+}
+
+.button-container {
+    width: 100%;
+}
+
+.register-button {
+    background-color: #FF5F5F !important;
+    color: white !important;
+    width: 100%;
 }
