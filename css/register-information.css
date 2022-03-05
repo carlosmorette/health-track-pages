@@ -9,18 +9,22 @@ body {
 }
 
 .card {
-    height: 90vh !important;
+    height: 70vh !important;
 }
 
 .card-content {
-    width: 70%;
+    width: 80%;
     margin: 0px 30px;
-    height: 80%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     text-align: center;
+}
+
+.form {
+    width: 100%;
 }
 
 .card-content p {
@@ -30,18 +34,24 @@ body {
 .gender-choice {
     display: flex;
     margin: 30px 0;
+    justify-content: space-around;
 }
 
-.choice {
-    padding: 10px 30px;
+.gender-input {
+    display: flex;
+    padding: 10px 20px;
     color: white;
 }
 
-.male {
+.gender-input input {
+    margin-right: 8px;
+}
+
+.men {
     background-color: #0000FF;
 }
 
-.female {
+.woman {
     background-color: #FF0000;
 }
 

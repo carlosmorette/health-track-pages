@@ -14,24 +14,31 @@
 	  <p>
 	    Para podermos acompanhar sua evolução, precisamos de algumas informações suas para registrar seu IMC. <br/> IMC significa Índice de Massa Corporal e é um parâmetro utilizado para saber se o peso está de acordo com a altura, o que pode interferir diretamente na saúde e qualidade de vida da pessoa.
 	  </p>
-	  <div class="gender-choice">
-	    <p class="choice male">Homem</p>
-	    <p class="choice female">Mulher</p>
-	  </div>
-	  
-
-	  <div class="inputs">
-	    <div class="mb-3 d-flex flex-column">
-	      <input type="text" class="form-control mb-4" placeholder="Idade..." aria-label="Idade">
-	      <input type="text" class="form-control mb-4" placeholder="Altura..." aria-label="Altura">
-	      <input type="text" class="form-control" placeholder="Peso..." aria-label="Peso">
+	  <form class="form">
+	    <div class="gender-choice">
+	      <div class="gender-input men">
+		<input type="radio" class="men" id="men" name="gender" value="men" />
+		<label for="men">Homem</label>
+	      </div>
+	      <div class="gender-input woman">
+		<input type="radio" id="woman" name="gender" value="woman" />
+		<label for="woman">Mulher</label>
+	      </div>
 	    </div>
-	  </div>
-	  
-	  <div class="button-container">
-	    <button type="button" class="btn register-button">Registrar</button>
-	  </div>
-	  
+
+	    <div class="inputs">
+	      <div class="mb-3 d-flex flex-column">
+		<input type="text" class="form-control mb-4" placeholder="Idade..." aria-label="Idade">
+		<input type="text" class="form-control mb-4" placeholder="Altura..." aria-label="Altura">
+		<input type="text" class="form-control" placeholder="Peso..." aria-label="Peso">
+	      </div>
+	    </div>
+	    
+	    <div class="button-container">
+	      <button type="button" class="btn register-button">Registrar</button>
+	    </div>
+
+	  </form>
 	</div>
       </div>
     </main>
